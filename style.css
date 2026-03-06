@@ -20,8 +20,10 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: #157a85;
+body {
+    background-image: url("img/gradient-background-mixed-with-blue-and-yellow-colors-you-can-use-this-background-for-presentations-banners-posters-and-invitations-free-photo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1:hover {

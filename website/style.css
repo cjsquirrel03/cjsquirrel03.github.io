@@ -126,6 +126,17 @@ p:hover::after {
     background-color: rgb(121, 121, 63);
     padding: 10px;
 }
+.home-parents {
+    font-size: 3rem;
+    cursor: pointer;
+    position: relative;
+    color: rgb(53, 52, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+    padding: 10px;
+}
 
 .tickets-card-parents {
     font-size: 3rem;
@@ -193,7 +204,7 @@ a {
     padding-top: 750px;
 }
 .padding2 {
-    padding-top: 200px;
+    padding-top: 20px;
 }
 .recent-exhibitions {
     color: rgb(196, 197, 207);
@@ -208,4 +219,42 @@ a {
 .titles {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#A7A284
+}
+.footer {
+    background-color: #7389AE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.titles {
+    color: beige;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heythere-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #7389AE;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+.heythere {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #433E0E;
+}
+.about-us-image img{
+    width: 100%;
+    padding-top: 50px;
 }

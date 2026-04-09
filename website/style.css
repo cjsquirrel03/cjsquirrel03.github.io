@@ -27,13 +27,18 @@ video[poster] {
     height: 100%;
 }
 
-.images-container {
-    flex-direction: column;
+.image-container {
     display: flex;
-    justify-content: left;
-    background-color: aliceblue;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(website-images/sheet-music.jpg);
 }
-
+.image-container img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%
+}
 .images img {
     width: 250px;
     padding-bottom: 25px;
@@ -45,8 +50,8 @@ video[poster] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(229, 229, 204);
     padding: 40px;
+
 
     
 }
@@ -58,6 +63,7 @@ video[poster] {
     background-color: #7389AE;
     border-radius: 20px;
     border-color: #433E0E;
+    font-size: small;
 }
 
 p {
@@ -107,7 +113,7 @@ p:hover::after {
 .linkeypoo-container {
     flex-direction: row;
     display: flex;
-    justify-content: left;
+    justify-content: right;
     background-color: #7389AE;
 }
 
@@ -174,7 +180,7 @@ a {
 }
 
 .logo {
-    width: 400px;
+    width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -190,10 +196,11 @@ a {
     padding-top: 200px;
 }
 .recent-exhibitions {
-    color: #7389AE;
+    color: rgb(196, 197, 207);
     border: black;
-    border-radius: 5px;
+    border-radius: 20px;
     text-shadow: #433E0E;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: #433E0E;
 }
